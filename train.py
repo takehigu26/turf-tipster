@@ -70,6 +70,7 @@ def main():
 	all_races_test = []
 
 	# 出走数 5〜18
+	## 1位になった馬とジョッキーをカウント
 	def read_file(file, all_races):
 		with open(file, 'r') as csvfile:
 			csvreader = csv.reader(csvfile)
